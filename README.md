@@ -1,2 +1,3 @@
 # ccnyacm.github.io
-Official website of City College of New York's ACM Club
+
+Official website of City College of New York's ACM Club. 
