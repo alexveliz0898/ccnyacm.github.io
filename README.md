@@ -10,5 +10,4 @@ bundle exec jekyll build
 bundle exec jekyll serve
 ```
 
-Theme information: 
-https://mmistakes.github.io/skinny-bones-jekyll/getting-started/
+Additionally, we will be using PureCSS for mobile responsiveness. Yahoo for mobile first! 
