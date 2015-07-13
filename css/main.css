@@ -1,7 +1,7 @@
 /* Desktop Nav for now - need media queries pl0x */
 .menu {
 	background:rgb(150, 69, 150);
-	padding-right:15px;
+	padding-right:10px;
 }
 
 /* Makes the menu-items go right */
