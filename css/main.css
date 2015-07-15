@@ -13,3 +13,7 @@
 .white {
 	color:white!important; 
 }
+
+.pure-menu-link:hover{
+	background-color:rgba(219, 156, 228, 0.89);
+}
