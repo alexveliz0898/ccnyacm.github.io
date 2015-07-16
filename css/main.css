@@ -1,6 +1,7 @@
 /* Desktop Nav for now - need media queries pl0x */
 .menu {
-	background:rgb(150, 69, 150);
+	background:#776fab;
+	/*rgb(150, 69, 150)*/
 	padding-right:10px;
 }
 
@@ -12,4 +13,10 @@
 /* actual logo ltr pl0x */
 .white {
 	color:white!important; 
+}
+
+.pure-menu-link:hover{
+	background-color: #847ac6; 
+	/* Other color options: #897fc6, #7f75ba, #7c73b5, #8b81ca */
+	/*rgba(219, 156, 228, 0.89)*/
 }
