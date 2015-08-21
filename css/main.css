@@ -1,3 +1,13 @@
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html {
+    font-family: Lato;
+    font-weight: 400;
+}
+
+
 /* Desktop Nav for now - need media queries pl0x */
 .menu {
 	background:#776fab;
@@ -12,11 +22,11 @@
 
 /* actual logo ltr pl0x */
 .white {
-	color:white!important; 
+	color:white!important;
 }
 
 .pure-menu-link:hover{
-	background-color: #847ac6; 
+	background-color: #847ac6;
 	/* Other color options: #897fc6, #7f75ba, #7c73b5, #8b81ca */
 	/*rgba(219, 156, 228, 0.89)*/
 }
