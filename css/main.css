@@ -76,3 +76,11 @@ p{
 	width: 250px;
 	height: 250px!important;
 }
+
+/* Responsive images */
+.responsive-img {
+	margin: 0 auto;
+	/*border: 5px solid #776fab;*/
+	max-width: 100%;
+	height: auto;
+}
