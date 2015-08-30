@@ -2,9 +2,27 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-html {
+html,
+h1,
+h2,
+h3,
+p {
     font-family: Lato;
     font-weight: 400;
+}
+
+h1 {
+	letter-spacing: -.10em;
+	width:100%;
+}
+
+p{
+	letter-spacing: .01em;
+}
+
+/* Centering text */
+.center {
+	text-align: center!important;
 }
 
 /* Background */
@@ -34,12 +52,35 @@ html {
 	/*rgba(219, 156, 228, 0.89)*/
 }
 
-.pure-g {
-	padding-top: 100px;
-}
-
 .circle {
 	border-radius: 50%;
 	width: 350px!important;
+	height: 350px!important;
+}
+
+.top {
+	padding-top: 51px;
+}
+
+/*.bottom {
+	padding-top: 10px;
+}*/
+
+.round {
+	width: 100%;
+	background-color: white;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 2em;
+	margin-top: 0;
+}
+
+.center-circle {
+	margin-left: 250px;
+	margin-right: 100px;
+}
+
+.flippy {
+	width: 350px;
 	height: 350px!important;
 }

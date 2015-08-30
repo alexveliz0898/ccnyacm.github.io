@@ -2,89 +2,92 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Style sheet for quick change views w/o node -->
+    <!-- Style sheet for quick changes -->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <!-- My own stylesheet -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bower_components/flip.js/build/flip.min.css">
-
-    <title>About</title>
-
+    <title>About - CCNY ACM</title>
 </head>
 
 <body>
-	<div class="menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
-		<a href="index.html" class="white pure-menu-heading">CCNY ACM</a>
-		<ul class="menu pure-menu-list">
-			<li class="pure-menu-item"><a href="events.html" class="white pure-menu-link">Events</a>
-			<li class="pure-menu-item"><a href="projects.html" class="white pure-menu-link">Projects</a>
-			<li class="pure-menu-item"><a href="about.html" class="white pure-menu-link">About</a>
-			<li class="pure-menu-item"><a href="resources.html" class="white pure-menu-link">Resources</a>
-			<li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
-		</ul> <!-- Menu unorder list end -->
-	</div> <!-- Menu div end -->
-
-    <!-- Blank Flip Card -->
-    <div class ="pure-g">
+    <div class="menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
+        <a href="index.html" class="white pure-menu-heading">CCNY ACM</a>
+        <ul class="menu pure-menu-list">
+            <li class="pure-menu-item"><a href="events.html" class="white pure-menu-link">Events</a>
+            <li class="pure-menu-item"><a href="projects.html" class="white pure-menu-link">Projects</a>
+            <li class="pure-menu-item"><a href="about.html" class="white pure-menu-link">About</a>
+            <li class="pure-menu-item"><a href="resources.html" class="white pure-menu-link">Resources</a>
+            <li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
+        </ul>
+        <!-- Menu unorder list end -->
+    </div>
+    <!-- Menu div end -->
+    <!-- About Section -->
+    <div class="pure-g top center bg-darker">
+        <h1 class="center">About Us</h1>
+        <div class="round">
+            <p>Hallo</p>
+        </div>
+    </div>
+    <!-- Blank Flip Cards -->
+    <div class="pure-g bottom">
+        <h1 class="center">E-board</h1>
         <!-- Card Flip: left -->
-    <div class="flip" data-flip="left">
-      <div class="flip-body">
-        <div class="circle flip-front blue">
-          <h1 class="card-header">Left</h1>
+        <div class="center-circle">
+            <div class="flip" data-flip="left">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <h1 class="card-header">Left</h1>
+                    </div>
+                    <div class="circle flip-back purple">
+                        <h1 class="card-header">Back</h1>
+                        <h2 class="card-message">data-flip="left"</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Flip: up -->
+            <div class="flip circle" data-flip="up">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <h1 class="card-header">Up</h1>
+                    </div>
+                    <div class="circle flip-back purple">
+                        <h1 class="card-header">Back</h1>
+                        <h2 class="card-message">data-flip="up"</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Flip: left -->
+            <div class="flip" data-flip="right">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <h1 class="card-header">Right</h1>
+                    </div>
+                    <div class="circle flip-back purple">
+                        <h1 class="card-header">Back</h1>
+                        <h2 class="card-message">data-flip="right"</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Card Flip: down -->
+            <div class="flip" data-flip="down">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <h1 class="card-header">Down</h1>
+                    </div>
+                    <div class="circle flip-back purple">
+                        <h1 class="card-header">Back</h1>
+                        <h2 class="card-message">data-flip="down"</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="circle flip-back red">
-          <h1 class="card-header">Back</h1>
-          <h2 class="card-message">data-flip="left"</h2>
-        </div>
-      </div>
     </div>
-
-    <!-- Card Flip: up -->
-    <div class="flip circle" data-flip="up">
-      <div class="flip-body">
-        <div class="circle flip-front blue">
-          <h1 class="card-header">Up</h1>
-        </div>
-        <div class="circle flip-back orange">
-          <h1 class="card-header">Back</h1>
-          <h2 class="card-message">data-flip="up"</h2>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card Flip: left -->
-    <div class="flip" data-flip="right">
-      <div class="flip-body">
-        <div class="circle flip-front blue">
-          <h1 class="card-header">Right</h1>
-        </div>
-        <div class="circle flip-back purple">
-          <h1 class="card-header">Back</h1>
-          <h2 class="card-message">data-flip="right"</h2>
-        </div>
-      </div>
-    </div>
-
-    <!-- Card Flip: down -->
-    <div class="flip" data-flip="down">
-      <div class="flip-body">
-        <div class="circle flip-front blue">
-          <h1 class="card-header">Down</h1>
-        </div>
-        <div class="circle flip-back green">
-          <h1 class="card-header">Back</h1>
-          <h2 class="card-message">data-flip="down"</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="bower_components/flip.js/build/flip.min.js"></script>
-
-</div>
+    <script src="bower_components/flip.js/build/flip.min.js"></script>
 </body>
 </html>
