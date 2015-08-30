@@ -42,12 +42,12 @@
 }
 
 .flip {
-  float: left;
-  margin: 20px;
+  margin: 20px auto;
+  /*margin: 20px;*/
 }
 
-@media(max-width: 540px) {
+/*@media(max-width: 540px) {
   .container {
     width: 100%;
   }
-}
+}*/
