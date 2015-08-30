@@ -33,3 +33,13 @@ html {
 	/* Other color options: #897fc6, #7f75ba, #7c73b5, #8b81ca */
 	/*rgba(219, 156, 228, 0.89)*/
 }
+
+.pure-g {
+	padding-top: 100px;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 350px!important;
+	height: 350px!important;
+}
