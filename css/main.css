@@ -29,7 +29,7 @@ p{
 .text {
 	position: relative;
 	height: 250px;
-	margin: 30vh auto 0;
+	margin: 50vh auto 0;
 	transform: translateY(-50%);
 }
 
@@ -100,4 +100,8 @@ p{
 	/*border: 5px solid #776fab;*/
 	max-width: 100%;
 	height: auto;
+}
+
+.pure-form input[readonly]{
+	background-color: #fff;
 }
