@@ -2,29 +2,105 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Style sheet for quick change views w/o node -->
+    <!-- Style sheet for quick changes -->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
     <!-- My own stylesheet -->
     <link rel="stylesheet" href="css/main.css">
-
-    <title>About</title>
-
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bower_components/flip.js/build/flip.css">
+    <title>About - CCNY ACM</title>
 </head>
 
 <body>
-	<div class="menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
-		<a href="index.html" class="white pure-menu-heading">CCNY ACM</a>
-		<ul class="menu pure-menu-list">
-			<li class="pure-menu-item"><a href="events.html" class="white pure-menu-link">Events</a>
-			<li class="pure-menu-item"><a href="projects.html" class="white pure-menu-link">Projects</a>
-			<li class="pure-menu-item"><a href="about.html" class="white pure-menu-link">About</a>
-			<li class="pure-menu-item"><a href="resources.html" class="white pure-menu-link">Resources</a> 
-			<li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
-		</ul> <!-- Menu unorder list end -->
-	</div> <!-- Menu div end -->
+    <div class="menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
+        <a href="index.html" class="white pure-menu-heading">CCNY ACM</a>
+        <ul class="menu pure-menu-list">
+            <li class="pure-menu-item"><a href="events.html" class="white pure-menu-link">Events</a>
+            <li class="pure-menu-item"><a href="projects.html" class="white pure-menu-link">Projects</a>
+            <li class="pure-menu-item"><a href="about.html" class="white pure-menu-link">About</a>
+            <li class="pure-menu-item"><a href="resources.html" class="white pure-menu-link">Resources</a>
+            <li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
+        </ul>
+        <!-- Menu unorder list end -->
+    </div>
+    <!-- Menu div end -->
+    <!-- About Section -->
+    <div class="pure-g top center bg-darker">
+        <h1 class="center">About Us</h1>
+        <div class="round-w">
+            <p>The CCNY chapter of the Association for Computing Machinery (ACM) is a student organization dedicated to bringing engaging and interesting events to our Computer Science community and those interested in Computer Science.</p>
+
+            <p>We go beyond the classroom setting and run workshops, talks, panels and competitions throughout the year that bring students together to learn and grow. One of our most engaging weekly events is Game Dev, where groups of students come together and build video games using hot languages such as JavaScript.</p>
+
+            <p>By being a part of ACM, you’ll get exposure to a handful of real world experiences such as learning to collaborate with others using Version Control tools such as Git, writing software in new and in-demand programming languages, learning from established alumni and individuals working in the software field through our panel events and lastly, you’ll start working towards building your personal portfolio which will carry you above and beyond your daily classes.</p>
+        </div>
+    </div>
+    <!-- Blank Flip Cards -->
+    <div class="pure-g">
+        <h1 class="center">E-board Bios</h1>
+        <!-- Card Flip: left -->
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h2 class="center">President: Porrith Suong</h2>
+            <div class="flip" data-flip="left">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <!-- Image goes here -->
+                    </div>
+                    <div class="area circle flip-back purple">
+                        <h2 class="center text">derpydeprpderp</h2>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        <!-- Allen Kim -->
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <!-- Card Flip: up -->
+            <h2 class="center">Vice-President: Allen Kim</h2>
+            <div class="flip circle" data-flip="up">
+                <div class="flippy center flip-body">
+                    <div class="circle flip-front blue">
+                        <img src="media/allen2.jpg" class="responsive-img team circle">
+                    </div>
+                    <div class="area circle flip-back purple">
+                            <h2 class="center text">cookies</h2>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h2 class="center">Secretary: Enan Rahman</h2>
+            <!-- Card Flip: left -->
+            <div class="flip" data-flip="right">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <!-- Image goes here -->
+                    </div>
+                    <div class="area circle flip-back purple">
+                            <h2 class="center text">meow</h2>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+          <h2 class="center">Treasurer: Lisa Maldonado</h2>
+            <!-- Card Flip: down -->
+            <div class="flip" data-flip="down">
+                <div class="flippy flip-body">
+                    <div class="circle flip-front blue">
+                        <img src="media/lisa2.jpg" class="responsive-img team circle">
+                    </div>
+                    <div class="area circle flip-back purple">
+                            <h2 class="center text">I like cookies and webdev. I also enjoy cookies.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bower_components/flip.js/build/flip.min.js"></script>
 </body>
 </html>

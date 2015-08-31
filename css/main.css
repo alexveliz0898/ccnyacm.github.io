@@ -1,3 +1,42 @@
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html,
+h1,
+h2,
+h3,
+p {
+    font-family: Lato;
+    font-weight: 400;
+}
+
+h1 {
+	letter-spacing: -.10em;
+	width:100%;
+}
+
+p{
+	letter-spacing: .01em;
+}
+
+/* Centering text */
+.center {
+	text-align: center!important;
+}
+
+/* Vertical centering nonsense for bubble text */
+.text {
+	position: relative;
+	height: 250px;
+	margin: 50vh auto 0;
+	transform: translateY(-50%);
+}
+
+/* Background */
+.bg-darker {
+	background-color: #dbd6f5;
+}
 /* Desktop Nav for now - need media queries pl0x */
 .menu {
 	background:#776fab;
@@ -12,11 +51,53 @@
 
 /* actual logo ltr pl0x */
 .white {
-	color:white!important; 
+	color:white!important;
 }
 
 .pure-menu-link:hover{
-	background-color: #847ac6; 
+	background-color: #847ac6;
 	/* Other color options: #897fc6, #7f75ba, #7c73b5, #8b81ca */
 	/*rgba(219, 156, 228, 0.89)*/
+}
+
+.circle {
+	border-radius: 50%;
+	width: 250px!important;
+	height: 250px!important;
+}
+
+.top {
+	padding-top: 51px;
+}
+
+/* Round-edged boxes */
+.round-w {
+	width: 100%;
+	background-color: white;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 2em;
+	margin-top: 0;
+}
+
+.round-p {
+	width: 100%;
+	background-color: #dbd6f5;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 2em;
+	margin-top: 0;
+}
+
+.flippy {
+	width: 250px;
+	height: 250px!important;
+}
+
+/* Responsive images */
+.responsive-img {
+	margin: 0 auto;
+	/*border: 5px solid #776fab;*/
+	max-width: 100%;
+	height: auto;
 }

@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,22 +9,79 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
     <!-- My own stylesheet -->
     <link rel="stylesheet" href="css/main.css">
-
-    <title>Contact</title>
-
+    <title>Contact - CCNY ACM</title>
 </head>
 
 <body>
-	<div class="menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
-		<a href="index.html" class="white pure-menu-heading">CCNY ACM</a>
-		<ul class="menu pure-menu-list">
-			<li class="pure-menu-item"><a href="events.html" class="white pure-menu-link">Events</a>
-			<li class="pure-menu-item"><a href="projects.html" class="white pure-menu-link">Projects</a>
-			<li class="pure-menu-item"><a href="about.html" class="white pure-menu-link">About</a>
-			<li class="pure-menu-item"><a href="resources.html" class="white pure-menu-link">Resources</a> 
-			<li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
-		</ul> <!-- Menu unorder list end -->
-	</div> <!-- Menu div end -->
-	
+    <div class="menu pure-menu pure-menu-horizontal pure-menu-scrollable pure-menu-fixed">
+        <a href="index.html" class="white pure-menu-heading">CCNY ACM</a>
+        <ul class="menu pure-menu-list">
+            <li class="pure-menu-item"><a href="events.html" class="white pure-menu-link">Events</a>
+            <li class="pure-menu-item"><a href="projects.html" class="white pure-menu-link">Projects</a>
+            <li class="pure-menu-item"><a href="about.html" class="white pure-menu-link">About</a>
+            <li class="pure-menu-item"><a href="resources.html" class="white pure-menu-link">Resources</a>
+            <li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
+        </ul>
+        <!-- Menu unorder list end -->
+    </div>
+    <!-- Menu div end -->
+    <div class="pure-g top bg-darker">
+        <h1 class="center">Contact Us</h1>
+        <div class="pure-u-1">
+            <h2 class="center">General ACM E-mail</h2>
+            <form class="center">
+                <input type="button" onclick="dispEmail()" value="Click Here">
+                <input type="text" id="emaddrtext" readOnly=true size="17" />
+            </form>
+        </div>
+    </div>
+
+    <!-- ACM Email Script -->
+    <script type="text/javascript">
+    function dispEmail() {
+        var s = new String()
+        var a = new Array()
+        var a2 = new Array()
+        a[0] = 86
+        a[1] = 33
+        a[2] = 29
+        a[3] = 32
+        a[4] = 121
+        a[5] = 189
+        a[6] = 118
+        a[7] = 202
+        a[8] = 204
+        a[9] = 104
+        a[10] = 9
+        a[11] = 86
+        a[12] = 72
+        a[13] = 126
+        a[14] = 187
+        a[15] = 62
+        a[16] = 207
+        a2[0] = 13
+        a2[1] = 66
+        a2[2] = 81
+        a2[3] = 89
+        a2[4] = -24
+        a2[5] = -90
+        a2[6] = -9
+        a2[7] = -138
+        a2[8] = -101
+        a2[9] = 5
+        a2[10] = 88
+        a2[11] = 19
+        a2[12] = 36
+        a2[13] = -80
+        a2[14] = -88
+        a2[15] = 49
+        a2[16] = -98
+        s = String.fromCharCode(a[0] + a2[0], a[1] + a2[1], a[2] + a2[2], a[3] + a2[3], a[4] + a2[4], a[5] + a2[5], a[6] + a2[6], a[7] + a2[7], a[8] + a2[8], a[9] + a2[9], a[10] + a2[10], a[11] + a2[11], a[12] + a2[12], a[13] + a2[13], a[14] + a2[14], a[15] + a2[15], a[16] + a2[16])
+        var x = document.getElementById("emaddrtext")
+        x.value = s
+        x.select()
+    }
+    </script>
 </body>
+
 </html>
