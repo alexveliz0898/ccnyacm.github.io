@@ -29,7 +29,7 @@ p{
 .text {
 	position: relative;
 	height: 250px;
-	margin: 50vh auto 0;
+	margin: 30vh auto 0;
 	transform: translateY(-50%);
 }
 
