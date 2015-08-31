@@ -71,9 +71,18 @@ p{
 }
 
 /* Round-edged boxes */
-.round {
+.round-w {
 	width: 100%;
 	background-color: white;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 2em;
+	margin-top: 0;
+}
+
+.round-p {
+	width: 100%;
+	background-color: #dbd6f5;
 	border-radius: .8em;
 	padding: 1em;
 	margin: 2em;
