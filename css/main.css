@@ -25,6 +25,14 @@ p{
 	text-align: center!important;
 }
 
+/* Vertical centering nonsense for bubble text */
+.text {
+	position: relative;
+	height: 250px;
+	margin: 50vh auto 0;
+	transform: translateY(-50%);
+}
+
 /* Background */
 .bg-darker {
 	background-color: #dbd6f5;
