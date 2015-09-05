@@ -19,6 +19,9 @@ h1 {
 p{
 	letter-spacing: .01em;
 }
+li {
+	letter-spacing: .01em;
+}
 
 /* Centering text */
 .center {
