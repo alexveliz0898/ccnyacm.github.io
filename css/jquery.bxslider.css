@@ -30,25 +30,6 @@
     text-align: center;
 }
 
-/** THEME
-===================================*/
-
-.bx-wrapper .bx-viewport {
-	/*-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;*/
-	left: -5px;
-	background: #fff;
-
-	/*fix other elements on the page moving (on Chrome)*/
-	-webkit-transform: translatez(0);
-	-moz-transform: translatez(0);
-    	-ms-transform: translatez(0);
-    	-o-transform: translatez(0);
-    	transform: translatez(0);
-}
-
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
@@ -105,18 +86,6 @@
 	background: #000;
 }
 
-/* DIRECTION CONTROLS (NEXT / PREV) */
-
-.bx-wrapper .bx-prev {
-	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
-}
-
-.bx-wrapper .bx-next {
-	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
-}
-
 .bx-wrapper .bx-prev:hover {
 	background-position: 0 0;
 }
@@ -140,41 +109,6 @@
 	display: none;
 }
 
-/* AUTO CONTROLS (START / STOP) */
-
-.bx-wrapper .bx-controls-auto {
-	text-align: center;
-}
-
-.bx-wrapper .bx-controls-auto .bx-start {
-	display: block;
-	text-indent: -9999px;
-	width: 10px;
-	height: 11px;
-	outline: 0;
-	background: url(images/controls.png) -86px -11px no-repeat;
-	margin: 0 3px;
-}
-
-.bx-wrapper .bx-controls-auto .bx-start:hover,
-.bx-wrapper .bx-controls-auto .bx-start.active {
-	background-position: -86px 0;
-}
-
-.bx-wrapper .bx-controls-auto .bx-stop {
-	display: block;
-	text-indent: -9999px;
-	width: 9px;
-	height: 11px;
-	outline: 0;
-	background: url(images/controls.png) -86px -44px no-repeat;
-	margin: 0 3px;
-}
-
-.bx-wrapper .bx-controls-auto .bx-stop:hover,
-.bx-wrapper .bx-controls-auto .bx-stop.active {
-	background-position: -86px -33px;
-}
 
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 
@@ -205,4 +139,27 @@
 	display: block;
 	font-size: .85em;
 	padding: 10px;
+}
+
+
+#slider-wrapper ul {
+    margin: 0px;
+}
+
+.bx-viewport, .bx-wrapper{
+    position:relative;
+    width:100%;
+    height:100% !important;
+    top:0;
+    left:0;
+}
+
+.bxslider, .bxslider li {
+    height: 100vh !important;;
+}
+
+.bxslider li {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
