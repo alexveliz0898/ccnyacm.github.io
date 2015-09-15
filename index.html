@@ -34,17 +34,21 @@
 			<li class="pure-menu-item"><a href="contact.html" class="white pure-menu-link">Contact</a>
 		</ul> <!-- Menu unorder list end -->
 	</div> <!-- Menu div end -->
-    <div class="pure-g top bg-darker">
-	   <ul class="bxslider">
-  		    <li><img src="http://placehold.it/650x400"></li>
-  		    <li><img src="http://placehold.it/650x400"></li>
-  		    <li><img src="http://placehold.it/650x400"></li>
-	   </ul>
-    </div>
+   
+	<ul class="bxslider">
+		<li style="background-image: url('http://bxslider.com/images/home_slides/hillside.jpg');"></li>
+		<li style="background-image: url('http://bxslider.com/images/home_slides/houses.jpg');"></li>
+		<li style="background-image: url('http://bxslider.com/images/home_slides/hillside.jpg');"></li>
+		<li style="background-image: url('http://bxslider.com/images/home_slides/houses.jpg');"></li>
+	</ul>
 
 	<script>
 		$(document).ready(function(){
-  			$('.bxslider').bxSlider();
+  			$('.bxslider').bxSlider({
+  				pager: false,
+  				auto: true,
+  				speed: 700
+  			})
 		});
 	</script>
 
