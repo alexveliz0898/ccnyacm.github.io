@@ -2,38 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300);
 
 .flip-front, .flip-back {
-  font-family: 'Quicksand', sans-serif;
   letter-spacing: 1px;
-}
-
-.card-header {
-  text-transform: uppercase;
 }
 
 .card-message {
   margin-top: 45px;
 }
-
-.red {
-  background: #FF5B64;
-}
-
-.orange {
-  background: #FF9659;
-}
-
-.blue {
-  background: #42B9F6;
-}
-
-.green {
-  background: #55FFA8;
-}
-
-.purple {
-  background: #dbd6f5;
-}
-
 /* The following styles are used for the layout */
 .container {
   width: 780px;
