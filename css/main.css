@@ -11,13 +11,21 @@ p {
     font-weight: 400;
 }
 
-h1 {
+h1, h2 {
 	letter-spacing: -.10em;
 	width:100%;
 }
 
 p{
 	letter-spacing: .01em;
+}
+li {
+	letter-spacing: .01em;
+    list-style: none;
+    padding-bottom: .5em;
+}
+ul {
+    list-style: none;
 }
 
 /* Centering text */
@@ -71,8 +79,19 @@ p{
 }
 
 /* Round-edged boxes */
+
+/* Events page */
+.round {
+    background-color: white;
+    border-radius: .8em;
+    padding: 1em;
+    margin: 2em;
+    margin-top: 0;
+}
+
+/* Other pages */
 .round-w {
-	width: 100%;
+    width: 100%;
 	background-color: white;
 	border-radius: .8em;
 	padding: 1em;
@@ -97,7 +116,6 @@ p{
 /* Responsive images */
 .responsive-img {
 	margin: 0 auto;
-	/*border: 5px solid #776fab;*/
 	max-width: 100%;
 	height: auto;
 }
