@@ -2,22 +2,20 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-html, button, input, select, textarea, h1, h2, h3, p
+html, button, input, select, textarea, h1, h2, h3, p, li, ul
 .pure-g [class *= "pure-u"] {
     font-family: Lato, sans-serif;
     font-weight: 400;
+    letter-spacing: 0em;
+
 }
 
 h1, h2 {
-	letter-spacing: -.10em;
+	/*letter-spacing: -.10em;*/
 	width:100%;
 }
 
-p {
-	letter-spacing: .01em;
-}
 li {
-	letter-spacing: .01em;
     list-style: none;
     padding-bottom: .5em;
 }
