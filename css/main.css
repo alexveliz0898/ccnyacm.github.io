@@ -2,12 +2,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-html,
-h1,
-h2,
-h3,
-p {
-    font-family: Lato;
+html, button, input, select, textarea, h1, h2, h3, p
+.pure-g [class *= "pure-u"] {
+    font-family: Lato, sans-serif;
     font-weight: 400;
 }
 
@@ -16,7 +13,7 @@ h1, h2 {
 	width:100%;
 }
 
-p{
+p {
 	letter-spacing: .01em;
 }
 li {
@@ -45,7 +42,12 @@ ul {
 .bg-darker {
 	background-color: #dbd6f5;
 }
-/* Desktop Nav for now - need media queries pl0x */
+
+/**********************
+    Menu
+**********************/
+
+/* This only works on desktop atm */
 .menu {
 	background:#776fab;
 	/*rgb(150, 69, 150)*/
@@ -55,11 +57,25 @@ ul {
 /* Makes the menu-items go right */
 .menu ul{
 	float:right;
+    /*padding-top: 6px;*/
+}
+
+.logo {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    *display: inline;
+    margin-left: 8px;
 }
 
 /* actual logo ltr pl0x */
 .white {
 	color:white!important;
+}
+
+.menu > img {
+    object-fit: contain;
+    max-height: 100%;
 }
 
 .pure-menu-link:hover{
