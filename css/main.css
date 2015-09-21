@@ -73,6 +73,10 @@ ul {
 	color:white!important;
 }
 
+.purple {
+    background-color:#dbd6f5!important;
+}
+
 .menu > img {
     object-fit: contain;
     max-height: 100%;
