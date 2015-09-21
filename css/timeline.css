@@ -1,12 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
 /* -------------------------------- 
 
 Primary style
 
 -------------------------------- */
-html * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
@@ -16,14 +13,12 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
   background-color: #e9f0f5;
 }
 
 a {
   color: #acb7c0;
   text-decoration: none;
-  font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -31,7 +26,6 @@ img {
 }
 
 h1, h2 {
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
