@@ -1,4 +1,6 @@
-/* Fonts */
+/******************
+    Fonts & Text
+*******************/
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
@@ -7,7 +9,6 @@ html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, li, ul
     font-family: Lato, sans-serif;
     font-weight: 400;
     letter-spacing: 0em;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +23,10 @@ ul {
     list-style: none;
 }
 
+/***********************
+    Centering Stuff
+************************/
+
 /* Centering text */
 .center {
 	text-align: center!important;
@@ -35,7 +40,9 @@ ul {
 	transform: translateY(-50%);
 }
 
-/* Background */
+/************************
+    Background Colors
+*************************/
 .bg-darker {
 	background-color: #dbd6f5;
 }
@@ -44,9 +51,17 @@ ul {
     background-color: #776fab;
 }
 
-/**********************
+.purple {
+    background-color:#dbd6f5!important;
+}
+
+.white {
+    color:white!important;
+}
+
+/************
     Menu
-**********************/
+*************/
 
 /* This only works on desktop atm */
 .menu {
@@ -58,8 +73,9 @@ ul {
 /* Makes the menu-items go right */
 .menu ul{
 	float:right;
-    /*padding-top: 6px;*/
 }
+
+/* Makes logo stay in place */
 
 .logo {
     display: inline-block;
@@ -67,15 +83,6 @@ ul {
     vertical-align: middle;
     *display: inline;
     margin-left: 8px;
-}
-
-/* actual logo ltr pl0x */
-.white {
-	color:white!important;
-}
-
-.purple {
-    background-color:#dbd6f5!important;
 }
 
 .menu > img {
@@ -99,7 +106,9 @@ ul {
 	padding-top: 51px;
 }
 
-/* Round-edged boxes */
+/************************
+    Round-edged boxes
+*************************/
 
 /* Events page */
 .round {
@@ -141,6 +150,9 @@ ul {
 	height: auto;
 }
 
+/**************
+    Forms
+***************/
 .pure-form input[readonly]{
 	background-color: #fff;
 }
