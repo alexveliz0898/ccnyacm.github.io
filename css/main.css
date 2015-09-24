@@ -131,6 +131,15 @@ ul {
     margin-bottom: 0;
 }
 
+.round-2 {
+    background-color: white;
+    border-radius: .8em;
+    padding: 1em;
+    margin: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .round-p {
 	width: 100%;
 	background-color: #dbd6f5;
