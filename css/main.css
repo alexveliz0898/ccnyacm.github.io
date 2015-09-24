@@ -117,6 +117,7 @@ ul {
     padding: 1em;
     margin: 2em;
     margin-top: 0;
+    padding-bottom: 15px;
 }
 
 /* Other pages */
@@ -127,6 +128,7 @@ ul {
 	padding: 1em;
 	margin: 2em;
 	margin-top: 0;
+    margin-bottom: 0;
 }
 
 .round-p {
@@ -136,6 +138,7 @@ ul {
 	padding: 1em;
 	margin: 2em;
 	margin-top: 0;
+    margin-bottom: 0;
 }
 
 .flippy {
