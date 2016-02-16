@@ -4,7 +4,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
 
-html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, li, ul
+html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, li, ul, a
 .pure-g [class *= "pure-u"] {
     font-family: Lato, sans-serif;
     font-weight: 400;
@@ -33,6 +33,7 @@ ul {
     margin:0 auto;
     display:block;
     margin-bottom: 32px;
+    font-family: Lato, sans-serif;
 }
 
 .invisible {
