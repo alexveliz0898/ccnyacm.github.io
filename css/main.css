@@ -68,7 +68,7 @@ ul {
     Menu
 *************/
 
-/* Navbar itself */
+/* Navbar */
 .custom-wrapper {
     background-color: #776fab;
     -webkit-font-smoothing: antialiased;
@@ -80,20 +80,22 @@ ul {
     transition: height 0.5s;
 }
 
-/*fine*/
+/* Link padding */
 .pure-menu-link {
     padding: 1em 1em;
 }
 
-/* fine */
+/* Height of mobile menu */
 .custom-wrapper.open {
-    height: 18.8em;
+    height: 19.5em;
 }
+
 
 .custom-menu-3 {
     text-align: right;
 }
 
+/* Toggled mobile menu */
 .custom-toggle {
     width: 34px;
     height: 34px;
@@ -102,11 +104,6 @@ ul {
     top: 8px;
     right: 0;
     display: none;
-}
-
-.logo {
-    margin-top: 4px;
-
 }
 
 /* Hamburger bar */
@@ -173,19 +170,14 @@ ul {
 	padding-right:10px;
 }
 
-/* Makes the menu-items go right */
-.menu ul{
-	float:right;
-}
-
 /* Makes logo stay in place */
-
 .logo {
     display: inline-block;
     white-space: nowrap;
     vertical-align: middle;
     *display: inline;
     margin-left: 8px;
+    margin-top: 4px;
 }
 
 .menu > img {
@@ -195,8 +187,6 @@ ul {
 
 .pure-menu-link:hover{
 	background-color: #847ac6;
-	/* Other color options: #897fc6, #7f75ba, #7c73b5, #8b81ca */
-	/*rgba(219, 156, 228, 0.89)*/
 }
 
 .circle {
