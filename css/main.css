@@ -37,6 +37,14 @@ ul {
 	text-align: center!important;
 }
 
+.top-excess {
+    margin-top: 0;
+}
+
+.bottom-excess {
+    margin-bottom: 10px;
+}
+
 /* Vertical centering nonsense for bubble text */
 .text {
 	position: relative;
@@ -45,8 +53,28 @@ ul {
 	transform: translateY(-50%);
 }
 
+.list-inline {
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 /************************
-    Background Colors
+    Background & Text Colors
 *************************/
 .bg-darker {
 	background-color: #dbd6f5;
