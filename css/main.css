@@ -28,6 +28,18 @@ ul {
     list-style: none;
 }
 
+.notice {
+    letter-spacing: 0em;
+    margin:0 auto;
+    display:block;
+    margin-bottom: 32px;
+}
+
+.invisible {
+    padding-bottom: 32px;
+}
+
+
 /***********************
     Centering Stuff
 ************************/
